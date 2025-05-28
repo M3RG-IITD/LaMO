@@ -1,6 +1,7 @@
 # Latent Mamba Operator for Partial Differential Equations
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/M3RG-IITD/LaMO/blob/main/LICENSE)
+[![ArXiv](https://img.shields.io/static/v1?&logo=arxiv&label=Paper&message=Arxiv:LaMO&color=B31B1B)](https://arxiv.org/abs/2505.19105)
 
 This repository contains the official implementation of our [Latent Mamba Operator for Partial Differential Equations](https://arxiv.org/abs/2505.19105).
 
