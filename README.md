@@ -17,7 +17,7 @@ This repository contains the official implementation of our [Latent Mamba Operat
 
 ## Codebase for Reproducibility: Getting Started
 
-1. Install Python 3.8. For convenience, please go ahead and execute the following command.
+1. Install Python 3.12.3. For convenience, please go ahead and execute the following command.
 
 ```bash
 pip install -r requirements.txt
@@ -48,7 +48,7 @@ Note: You must change the argument `--data-path` in the above script files to yo
 
 4. Develop your own model. Here are the instructions:
 
-   - Add the model file under folder `./models/`.
+   - Add the model file under the folder `./models/`.
    - Add the model name into `./model_dict.py`.
    - Add a script file under folder `./scripts/` and change the argument `--model`.
 
@@ -85,6 +85,12 @@ Please consider citing our paper if you find it helpful. Thank you!
       url={https://arxiv.org/abs/2505.19105}, 
 }
 ```
+
+## Contact
+If you have any questions, please feel free to contact me at:
+
+Karn Tiwari: karntiwari@iisc.ac.in
+
 ## Acknowledgement
 
 We appreciate the following GitHub repos a lot for their valuable code base or datasets on which we have built our code:
@@ -96,4 +102,6 @@ We appreciate the following GitHub repos a lot for their valuable code base or d
 3) https://github.com/state-spaces/mamba/tree/main
 
 4) https://github.com/goombalab/hydra/tree/main
+
+5) https://github.com/MzeroMiko/VMamba
 
