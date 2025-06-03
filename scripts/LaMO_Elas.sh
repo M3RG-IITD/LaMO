@@ -1,0 +1,14 @@
+python lamo_elas.py \
+--gpu 1 \
+--model LaMO_Irregular_Mesh_shared \
+--n-hidden 128 \
+--n-heads 8 \
+--n-layers 8 \
+--lr 0.001 \
+--max_grad_norm 0.1 \
+--batch-size 1 \
+--slice_num 64 \
+--unified_pos 0 \
+--ref 8 \
+--eval 0 \
+--save_name LaMO_Elas

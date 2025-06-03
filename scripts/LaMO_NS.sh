@@ -1,0 +1,22 @@
+python lamo_ns.py \
+--gpu 1 \
+--model LaMO_Regular_Grid \
+--n-hidden 256 \
+--n-heads 8 \
+--n-layers 8 \
+--lr 0.0005 \
+--batch-size 2 \
+--slice_num 32 \
+--unified_pos 1 \
+--ref 8 \
+--eval 0 \
+--save_name LaMO_NS \
+--num_scales 1 \
+--patch_sizes 2 \
+--embed_dims 256 \
+--depths 8 \
+--H_padded 64 \
+--W_padded 64 \
+--num_heads 8  \
+--mlp_ratios 4
+
